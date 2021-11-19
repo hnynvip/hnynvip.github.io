@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+	cursor: url("img/Cake Curssor.cur")auto;
+}
+
+a:hover{
+cursor: url("img/Cake Curssor.cur"), auto;
+}
+
+body{
+    margin: 0;
+    background-image: url("img/bg.png");
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+}
+.container2{
+    height: 500px;
+    width: 800px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    box-shadow: 2px 32px 66px -21px;
+    overflow: hidden;
+    margin: 1vw auto;
+}
+.container2 figure{
+    background-image: url("img/diachiphai.png");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    margin: 0;
+    position: relative;
+}
+#change{
+    background-image: url("img/diachi1.png");
+    height: 500px;
+    background-size: cover;
+    bottom: 0;
+    border-right: 2px solid #fff;
+    width: 50%;
+    max-width: 98.6%;
+    min-width: 0.6%;
+    overflow: visible;
+    position: absolute;
+}
+input#slider{
+    margin: 0;
+    left: 0;
+    top: -100vw;
+    padding: 0;
+    width: 100%;
+    height: 100vw;
+    position: relative;
+    cursor: col-resize;
+    border: none;
+    outline: none;
+}
+#change::before{
+    content: '';
+    background: url(https://1.bp.blogspot.com/-z3TgKzTLWkk/YQLrjCDOqzI/AAAAAAAACYc/6aV8ZCzTjSAC7a-TOdSfXqTtRbG2A0qCwCNcBGAsYHQ/s0/comparision.png) no-repeat center;
+    width: 65px;
+    height: 100%;
+    background-size: contain;
+    float: right;
+    margin-right: -34px;
+    top: 0;
+    position: relative;
+}
+
+
+.section{
+	padding: 120px;
+	margin: auto;
+	
+}
+
+.section a{
+	text-decoration: none;
+	border: 2px solid black;
+	padding: 20px;
+	border-radius: 50%;
+	font-family:'Patrick Hand', cursive;
+	font-weight: 600;
+	font-size: 20pt;
+	color:#6d392e;
+	background: #ff99aa;
+}
+
+.section a:hover{
+	background: #d4e7fc;
+	color: deeppink;
+	box-shadow: 2px 5px 3px 0px gray;
+}
+
+
+
+
+
+
